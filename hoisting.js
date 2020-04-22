@@ -13,10 +13,10 @@ function crazy() {
   // fix the code in here:
 
 
-  var thisIsCrazy = function (){
-    thisIsCrazy();
+  thisIsCrazy = function (){
     console.log("hey!!!")
   }
+  var thisIsCrazy
 }
 
 function sayMyName() {
